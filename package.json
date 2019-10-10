@@ -1,0 +1,25 @@
+{
+  "name": "@mbonner4th/loop-async-function",
+  "version": "1.0.0",
+  "description": "Waits for the wait duration and then calls the callback.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbonner4th/loop-async-function.git"
+  },
+  "keywords": [
+    "async",
+    "voxology",
+    "logs",
+    "loop"
+  ],
+  "author": "Miles Bonner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbonner4th/loop-async-function/issues"
+  },
+  "homepage": "https://github.com/mbonner4th/loop-async-function#readme"
+}
