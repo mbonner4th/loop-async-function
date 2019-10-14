@@ -17,7 +17,7 @@
     "loop"
   ],
   "author": "Miles Bonner",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mbonner4th/loop-async-function/issues"
   },

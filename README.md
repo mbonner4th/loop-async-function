@@ -1,4 +1,7 @@
-# mbonner4th/loop-async-function
+# @mbonner4th/loop-async-function
+![npm (scoped)](https://img.shields.io/npm/v/@mbonner4th/loop-async-function)
+[![GitHub stars](https://img.shields.io/github/stars/mbonner4th/loop-async-function)](https://github.com/mbonner4th/loop-async-function/stargazers)
+![GitHub](https://img.shields.io/github/license/mbonner4th/loop-async-function)
 
 Waits for the wait duration and then calls the callback. If a call logs is not returned the function is repeated until the loop count is exhausted. If the loop count is exhausted, any error returned by the query is thrown.
 
@@ -7,7 +10,7 @@ Waits for the wait duration and then calls the callback. If a call logs is not r
 ## Install
 
 ```
-$ npm install @mbonner4th/loop-async-function -s
+npm install @mbonner4th/loop-async-function -s
 ```
 
 ## Usage

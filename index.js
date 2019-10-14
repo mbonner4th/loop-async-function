@@ -15,14 +15,14 @@ function resolveAfterXMilliseconds (timeout) {
  * @param {*} callback a callable function. expected ()=>{someAsyncFunction}
  * @param {*} loopCount the maximum number of times to run the request
  * @param {*} [waitDuration=2000] the wait time per callback in milliseconds
- * @param {*} [maxAwait=4000] the maximum time to await the waitDuration and callback. If the
+ * @param {*} [maxAwait=60000] the maximum time to await the waitDuration and callback. If the
  *   waitDuration + time fot the callback response exceeds the maxAwait, an error is thrown.
  */
 async function loopAsyncFunction(
   callback,
   loopCount,
   waitDuration = 2000,
-  maxAwait = 10000,
+  maxAwait = 60000,
 ) {
   if (waitDuration > maxAwait) {
     throw new Error('waitDuration can not exceed max Await');
