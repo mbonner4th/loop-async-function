@@ -1,6 +1,6 @@
 {
   "name": "@mbonner4th/loop-async-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Waits for the wait duration and then calls the callback.",
   "main": "index.js",
   "scripts": {
